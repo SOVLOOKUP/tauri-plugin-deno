@@ -1,0 +1,10 @@
+[package]
+name = "tauri-plugin-deno"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+deno_runtime = "0.91.0"
+deno_core = "0.165.0"
+tokio = "1"
+tauri = "1"
